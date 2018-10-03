@@ -1,6 +1,6 @@
 # SugarOrmCipher
 
-use encrypt database with SugarOrm
+encrypt database with SugarOrm
 
 
 i am using http://satyan.github.io/sugar/ 
@@ -69,8 +69,8 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void intialize_Sugar(){
-        SugarContext.setDbName("alavi.db");
-        SugarContext.setDomainPakageName("ir.pearly.alavisugar");
+        SugarContext.setDbName("test.db");
+        SugarContext.setDomainPakageName("com.DomainPakageName");
         SugarContext.setQueryLog(true);
         SugarContext.setVersion(1);
         SugarContext.setEncryptKey("password123456789");
